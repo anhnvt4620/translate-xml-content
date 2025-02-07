@@ -6,6 +6,10 @@ This project is designed to translate XML content using an external API. It prov
 
 ```
 translate-xml-content
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 ├── src
 │   ├── app.js                # Entry point of the application
 │   ├── controllers

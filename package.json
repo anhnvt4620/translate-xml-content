@@ -1,0 +1,22 @@
+{
+  "name": "translate-xml-content",
+  "version": "1.0.0",
+  "description": "A project for translating XML content using an external API.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "xml2js": "^0.4.23",
+    "dotenv": "^10.0.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

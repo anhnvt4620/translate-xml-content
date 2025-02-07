@@ -7,17 +7,16 @@ This project is designed to translate XML content using an external API. It prov
 ```
 translate-xml-content
 ├── frontend/
-│   ├── index.html
+│   ├── translate.html # Main
 │   ├── styles.css
 │   └── script.js
+│   ├── index.html # Login
 ├── src
 │   ├── app.js                # Entry point of the application
 │   ├── controllers
 │   │   └── translateController.js  # Handles XML translation logic
 │   ├── routes
 │   │   └── index.js          # Sets up application routes
-│   └── utils
-│       └── encryption.js      # Functions for encrypting and decrypting API keys
 ├── package.json               # Configuration file for npm
 ├── .env                       # Environment variables (API key, encryption key)
 └── README.md                  # Documentation for the project
